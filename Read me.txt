@@ -1,0 +1,19 @@
+1.  all the paths in my project is relative so plz check that
+2.  i have used Visual Studio Code during Devlopement process
+3.  before running the project copy all the train and test folders from the orignal data set to Dataset Folder inside fruits-360
+
+Steps 1 :- 
+Run the Feature_extraction.py file
+it will genrate all the batch files inside the train folder (Already files in train folder if not want to run)
+
+
+Step  2  :- 
+Execute the ML_models.py file to calculate all the results you have to manually change the target algo inside the file by changing the path
+then it will save an python object file in the result folder 
+
+step 3 :- 
+you can read result file with the help of printresult.py file
+
+Get_data.py file only contain the code to read all the batch from csv and convert it inot a single dataset.
+
+all the results are stored as object in the result folder if you only wants to read the result just lunch the printresult.py file
